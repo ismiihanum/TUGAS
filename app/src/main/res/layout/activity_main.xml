@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="center">
+
+        <ImageView android:layout_width="100dp"
+                   android:layout_height="200dp"
+                   android:id="@+id/ivcowok"
+                   android:src="@drawable/cowok1"
+                   android:layout_weight="1"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:text="VS"
+                  android:textSize="50dp"/>
+        <ImageView android:layout_width="100dp"
+                   android:layout_height="200dp"
+                   android:id="@+id/ivcewek"
+                   android:src="@drawable/cewek1"
+                   android:layout_weight="1"/>
+    </LinearLayout>
+
+    <Button android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMatch"
+            android:text="MATCH"
+            android:layout_gravity="center"/>
+
+
+</LinearLayout>
